@@ -91,7 +91,7 @@ const Dashboard = () => {
           <StatCard label="Total Tasks" value={stats.total} color="blue" icon="📋" />
           <StatCard label="To Do" value={stats.todo} color="yellow" icon="📌" />
           <StatCard label="In Progress" value={stats.inProgress} color="orange" icon="🔄" />
-          <StatCard label="Completed" value={stats.completed} color="green" icon="✅" />
+          <StatCard label="Completed" value={stats.completed} color="green" icon="" />
         </div>
 
         {/* Filters */}

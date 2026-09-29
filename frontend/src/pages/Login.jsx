@@ -39,7 +39,7 @@ const Login = () => {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="text-5xl mb-2">✅</div>
+          <div className="text-5xl mb-2"></div>
           <h1 className="text-3xl font-bold text-blue-600">TaskNest</h1>
           <p className="text-gray-500 mt-1">Sign in to your account</p>
         </div>
