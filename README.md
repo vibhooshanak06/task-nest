@@ -94,7 +94,11 @@ cp .env.example .env
 Edit `backend/.env`:
 ```env
 PORT=5000
-DATABASE_URL=mysql://root:yourpassword@localhost:3306/tasknest
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=tasknest
+DB_USER=root
+DB_PASSWORD=yourpassword
 JWT_SECRET=your_super_secret_key_at_least_32_chars
 NODE_ENV=development
 ```
