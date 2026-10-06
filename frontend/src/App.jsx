@@ -1,4 +1,4 @@
-import { HashRouter , Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter , Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Login from './pages/Login';
@@ -9,7 +9,7 @@ import EditTask from './pages/EditTask';
 
 const App = () => {
   return (
-    <HashRouter >
+    <BrowserRouter >
       <AuthProvider>
         <Routes>
           {/* Public routes */}
@@ -28,7 +28,7 @@ const App = () => {
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
       </AuthProvider>
-    </HashRouter >
+    </BrowserRouter >
   );
 };
 
